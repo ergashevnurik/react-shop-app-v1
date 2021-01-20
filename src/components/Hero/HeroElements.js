@@ -17,7 +17,7 @@ export const HeroImage = styled.img `
 `
 export const HeroH1 = styled.h1 `
     color: white;
-    font-size: clamp(2.3rem, 100vw, 3.5rem);
+    font-size: 3.5rem;
 
     margin-bottom: 20px;
 `
