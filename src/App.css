@@ -36,7 +36,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.7);
 }
 
 /*FA Icons Decoration*/
@@ -69,5 +69,11 @@
 @media screen and (max-width: 1200px) {
   .input, .button {
     display: none;
+  }
+  .leftArrow {
+    left: 0;
+  }
+  .rightArrow {
+    right: 0;
   }
 }

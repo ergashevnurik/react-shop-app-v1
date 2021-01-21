@@ -1,7 +1,21 @@
+import Navbar from '../components/Navbar';
+import ShopComponent from '../components/Shop'
+import Sidebar from '../components/Sidebar';
+import React, {useState} from 'react'
+
 function Shop() {
+
+    const [isOpen, setisOpen] = useState(false);
+
+    const toggle = () => {
+        setisOpen(!isOpen);
+    }
+
     return (
         <>
-            <h1>HEllo</h1>
+            <Navbar toggle={toggle} />
+            <Sidebar toggle={toggle} isOpen={isOpen} />
+            <ShopComponent />
         </>
     )
 }
