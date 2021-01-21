@@ -39,7 +39,7 @@ const Hero = ({slides}) => {
                                 <HeroImage src={slide.img} alt="Hello" />
                                 <div className="slide-caption">
                                     <HeroH1>{slide.h1}</HeroH1>
-                                    <HeroButton>Shop Now</HeroButton>
+                                    <HeroButton to="/shop">Shop Now</HeroButton>
                                 </div>
                             </div>
                         )}
