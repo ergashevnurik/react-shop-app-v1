@@ -1,16 +1,15 @@
 .rightArrow, .leftArrow {
   position: absolute;
   color: white;
-  right: 50px;
+  right: 25px;
   font-size: 3.5rem;
-  bottom: 25px;
   user-select: none;
   cursor: pointer;
   z-index: 12;
 }
 
 .leftArrow {
-  right: 125px;
+  left: 25px;
 }
 
 .slide {

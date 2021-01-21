@@ -6,7 +6,7 @@ import {
     HeroH1,
     HeroButton
 } from './HeroElements'
-import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa'
+import {BiLeftArrow, BiRightArrow} from 'react-icons/bi'
 
 const Hero = ({slides}) => {
 
@@ -28,8 +28,8 @@ const Hero = ({slides}) => {
     return (
         <HeroSection>
             
-            <FaArrowAltCircleLeft onClick={prevState} className="leftArrow" />
-            <FaArrowAltCircleRight onClick={nextState} className="rightArrow" />
+            <BiLeftArrow onClick={prevState} className="leftArrow" />
+            <BiRightArrow onClick={nextState} className="rightArrow" />
             
             {HeroData.map((slide, index) => {
                 return (
