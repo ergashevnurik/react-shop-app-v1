@@ -117,7 +117,7 @@ a {
 }
 
 img.small {
-  max-width: 16rem;
+  max-width: 15rem;
 }
 
 .btn {
@@ -140,4 +140,8 @@ img.small {
   margin-top: 10px;
   width: 100%;
   padding: 12px 20px;
+}
+
+.row div {
+  margin: 5px;
 }

@@ -25,6 +25,13 @@ const ShopData = {
             alt: 'T-Shirt',
             price: '955.000'
         },
+        {
+            id: '4', 
+            img: ImageOne,
+            name: 'koton T-shirt',
+            alt: 'T-Shirt',
+            price: '55.000'
+        },
     ]
 }
 
