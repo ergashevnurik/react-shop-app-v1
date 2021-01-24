@@ -1,9 +1,11 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 export const ShopSection = styled.section `
     width: 100%;
     background:#0b0b13;
     color: white;
+    height: 100%;
 `
 
 export const ShopContainer = styled.div `
@@ -55,7 +57,7 @@ export const ShopCardH3 = styled.h3 `
     margin-bottom: 5px;
 `
 
-export const ShopCardButtonView = styled.button `
+export const ShopCardButtonView = styled(Link) `
     padding: 12px 20px;
     outline: none;
     border: none;
@@ -73,7 +75,7 @@ export const ShopCardButtonView = styled.button `
 
 `
 
-export const ShopCardButtonAdd = styled.button `
+export const ShopCardButtonAdd = styled(Link) `
     padding: 12px 20px;
     outline: none;
     border: none;

@@ -77,3 +77,60 @@
     right: 0;
   }
 }
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1 {
+  flex: 1
+}
+
+.col-2 {
+  flex: 2
+}
+
+.block {
+  background: #e0e0e0;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;;
+}
+
+.row.center {
+  align-items: center;
+}
+
+img.small {
+  max-width: 12rem;
+}
+
+.btn {
+  padding: 10px;
+  margin: 1px;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.btn-danger {
+  background: red;
+}
+
+.btn-success {
+  background: green;
+}
+
+.checkout {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px 20px;
+}

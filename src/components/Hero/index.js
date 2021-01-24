@@ -43,8 +43,6 @@ const Hero = ({slides}) => {
                                 </div>
                             </div>
                         )}
-
-                        
                     </div>
                 )
             })}

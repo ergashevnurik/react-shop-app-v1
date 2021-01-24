@@ -28,6 +28,7 @@ export const NavbarLogo = styled(Link) `
     text-decoration: none;
     margin-right: auto;
     color: white;
+    font-size: 1.8rem;
 `
 
 export const NavbarUnOrderedList = styled.ul `
@@ -50,11 +51,10 @@ export const NavbarLink = styled(Link) `
     text-decoration: none;
     color: white;
     padding: 12px 20px;
-    font-size: 18px;
 `
 export const MobileIcon = styled.div `
-    display:none;
-    @media screen and (max-width: 768px) {
+    //display:none;
+    //@media screen and (max-width: 768px) {
         display: block;
         position: absolute;
         top: 0;
@@ -63,5 +63,5 @@ export const MobileIcon = styled.div `
         font-size: 1.8rem;
         cursor: pointer;
         color: #fff;
-    }
+        //}
 `
