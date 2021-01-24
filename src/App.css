@@ -76,6 +76,10 @@
   .rightArrow {
     right: 0;
   }
+  img.small {
+    width: 100%;
+    max-width: 100%!important;
+  }
 }
 
 
@@ -87,15 +91,18 @@ a {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .col-1 {
-  flex: 1
+  flex: 1;
+  margin: 10px;
 }
 
 .col-2 {
-  flex: 2
+  flex: 2;
+  margin: 10px;
 }
 
 .block {
@@ -110,7 +117,7 @@ a {
 }
 
 img.small {
-  max-width: 12rem;
+  max-width: 16rem;
 }
 
 .btn {
